@@ -1,0 +1,48 @@
+    .section {
+        color: white;
+        display: flex;
+        font-size: 28px;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 0 138px 0 138px;
+ 
+        @media (max-width:1300px) {
+            margin: 0 7% 0 7%;
+        }
+      
+
+
+
+        .title {
+            font-weight: bold;
+            font-size: 48px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .role {
+            font-size: 48px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .year {
+            text-align: right;
+            color: grey;
+        }
+
+        .exp-section {
+            margin-top: 35px;
+
+        }
+
+        .exp {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+    }

@@ -1,0 +1,46 @@
+.project-container {
+    color: white;
+    margin: 0 138px 0 138px;
+ 
+    @media (max-width:1300px) {
+        margin: 0 7% 0 7%;
+    }
+
+    .title {
+      
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .img-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    
+        .card {
+            
+            width: 47%;
+            max-width: 700px;
+            max-height: 700px;
+            img {
+                border-radius: 25px;
+                height: 90%;
+                width: 100%;
+            }
+            .name {
+                margin-top: 20px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .desc {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+}
